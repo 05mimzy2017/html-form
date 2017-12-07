@@ -1,0 +1,84 @@
+<!DOCTYPE html>                                                                                                                                                                                                                                                                         <!DOCTYPE html>
+
+<html>
+<head>
+  <title>Order Form</title>
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1>Order Now!</h1>
+
+  <form action="thanks.html" method="post">
+  <fieldset>
+  <legend>Personal Info</legend>
+
+<label for="name">Name:</label>
+<input id="name" type="text" name="name">
+<br>
+
+
+<label for="address">Address:</label>
+<input id="address" type="text" name="address">
+<br>
+
+<label for="city">City:</label>
+<input id="city" type="text" name="city">
+
+<label for="state">State:</label>
+<input id="state" type="text" name="State" size="2" maxlength="2">
+
+  <label for="zip">Zip:</label>
+  <input id="zip" type="text" name="Zip">
+
+</fieldset>
+
+<fieldset>
+  <legend>Order Info</legend>
+  <label for="size">Size:</label>
+  <select id="size" name="sizes">
+    <option value="x-sm">Extra Small</option>
+    <option value="sm">Small</option>
+    <option value="md">Medium</option>
+    <option value="lg">Large</option>
+    <option value="x-lg">Extra Large</option>
+  </select>
+
+
+  <input for="quantity">Quantity:</label>
+  <input id="quantity" type="text" name="quantity" size="5">
+  <br>
+
+</fieldset>
+
+<fieldset>
+  <legend>Payment Info</legend>
+
+  Card Type:
+  <input id="visa" type="radio" name="card_type" value="visa">
+  <label for="visa">Visa</label>
+
+  <input id="mc" type="radio" name="card_type" value="mc">
+  <label for="mc">Master Card</label>
+
+  <input id="discover" type="radio" name="card_type" value="discover">
+  <label for="discover">Discover</label>
+  <br>
+
+
+
+
+<label for="cc_number">Credit Card Number:</label>
+<input id="cc_number" type="type" name"cc_number" size="5">
+<br>
+
+</label>
+
+</fieldset>
+
+<input type="submit" value="Submit Form">
+
+</form>
+</body>
+</html>
